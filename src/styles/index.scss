@@ -12,15 +12,20 @@ html,
 body {
   height: 100%;
 }
-
+.cards-wrapper {
+  display: flex;
+  justify-content: center; /* Або як тобі потрібно для майбутніх карток */
+  align-items: center;
+  flex-wrap: wrap; // Якщо буде багато карток
+  gap: 20px; // Відстань між картками, якщо їх буде багато
+  min-height: 100vh;
+}
 body {
   margin: 0;
   font-family: $font-family;
   background: #f7f7f7;
   color: $color-text;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
 p,
