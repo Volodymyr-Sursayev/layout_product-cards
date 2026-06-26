@@ -12,6 +12,7 @@ html,
 body {
   height: 100%;
 }
+
 .cards-wrapper {
   display: flex;
   justify-content: center; /* Або як тобі потрібно для майбутніх карток */
@@ -20,6 +21,7 @@ body {
   gap: 20px; // Відстань між картками, якщо їх буде багато
   min-height: 100vh;
 }
+
 body {
   margin: 0;
   font-family: $font-family;
